@@ -1,0 +1,64 @@
+      #join{position:relative; width:100%; height:2100px; margin-top:100px; margin-top:100px;}
+    #view{position:relative; width:1500px; height:1900px; margin:0 auto;}
+    #view1{position:absolute; width:430px; height:1900px;  right:60%; overflow:hidden;}
+    
+    
+    #sub{position:relative; width:700px; height:130px; }    
+    #subl{position:absolute; width:250px; height:60px;  color: #0058A3;
+    font-size: 35px; font-weight: bold; top:40%; left: 18%;
+    transform: translate(-50%, -50%);}
+    #subr{position:absolute; width:250px; height:60px;  color: black;
+    font-size: 35px; font-weight: bold; top:40%; right:16%;
+    transform: translate(-50%, -50%);}    
+    #subl2{position:absolute; width:250px; height:20px; color:black;
+    font-size: 13px; font-weight: bold; top:65%; left: 18%;
+    transform: translate(-50%, -50%);}
+    
+    
+    #images1{position:relative; width:198px; height:1000px;  float: left; overflow:hidden;}
+    #images2{position:relative; width:198px; height:1200px;  float: right;
+        right: 17px;  overflow:hidden;}
+    
+    .rectangle{position:relative; width:210px; height:250px;  overflow:hidden; margin-top: 10px;}
+    .square{position:relative; width:210px; height:190px;   overflow:hidden; margin-top: 10px;}
+    
+    
+    #view2{position:absolute; width:700px; height:1900px;  left:50%; margin-top:30px;}
+    .rect{position:relative; width:700px; height:180px;  font-size: 15px; margin-top:-30px;}
+    .sub{position:relative; width:700px; height:180px;  font-size: 15px; }
+    .title{position: relative;}
+
+    
+     input::-webkit-input-placeholder {color: silver; font-size: 15px;}
+    .input_div{width: 90%; height: 35px; border: none; border-bottom: 1.5px solid black; margin-top:  20px; position: relative; color:black;}
+    
+     #subtitle{ color: black; font-size: 17px; width: 100px; height: 20px; border: 1px solid red; position: absolute; left: 0 ; bottom: 0 ; }
+    
+    .input_div2{width: 70%; height: 35px; border: none; border-bottom: 1.5px solid black; margin-top:  20px; position: relative; }
+    .input_div3{width: 90%; height: 35px; border: none; margin-top:  20px; position: relative; left: 0 ;bottom:5px; font-size: 14px;}
+    .input_div4{width: 70%; height: 35px; border: none; border-bottom: 1.5px solid silver; margin-top:  20px; position: relative;}
+
+    .title ul{position: absolute; top:30px; left:-35px; font-size: 13px; }
+
+    #bt1{background: #004F93; width:300px;height: 55px; padding:0 45px; font-size: 17px; color: white;border:1px solid silver; font-weight: bold; margin-top: 70px; border-bottom-left-radius: 30px; border-bottom-right-radius: 30px; border-top-left-radius: 30px; border-top-right-radius: 30px;}
+    #bt2{background: black;  width:80%; height: 45px; padding:0 45px; font-size: 15px; color: white;  font-weight: bold; margin-top: 20px; border-bottom-left-radius: 30px; border-bottom-right-radius: 30px; border-top-left-radius: 30px; border-top-right-radius: 30px;}
+   
+    
+    #ra1{border:1px; font-size:15px ; width:20px; height:20px; margin-top: 20px; }
+    #ch1{border:1px; font-size:15px ; width:20px; height:20px; margin-top: 20px; border-bottom-left-radius: 20px;}
+    #advertiseall{border:1px; font-size:15px ; width:20px; height:20px; margin-top: 20px; border-bottom-left-radius: 20px;}
+    
+    .right{position:absolute; width:250px; height:70px; left:50px; font-size: 16px;
+        top:-40px;}
+    
+    input[type="text"]:focus { border-bottom:2px solid red; color:black;}
+    input[type="text"]:focus + .Label { top:0; font-size:12px; }
+    input[type="text"]:focus + .Label +.guide { display:block; color: red; font-size: 12px;top:10px;}
+    input:focus { outline:none; }
+    
+    input[type="email"]:focus { border-bottom:2px solid red;}
+    input[type="email"]:focus + .Label { top:0; font-size:12px; }
+    input[type="email"]:focus + .Label +.guide { display:block; color: red; font-size: 12px;top:10px;}
+    input:focus { outline:none; }
+    
+    input[type="password"]:focus { border-bottom:2px solid red;}
